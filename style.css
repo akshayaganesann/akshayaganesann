@@ -1,0 +1,203 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background: linear-gradient(45deg, #ffffff, #ADD8E6);
+    color: #fff;
+    padding: 1em 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #000;
+}
+
+/* Floating profile picture styling */
+.floating-profile-pic {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1001; /* higher than the header */
+}
+
+.floating-profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Hero section styling */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10%;
+    margin-top: 70px; /* to account for the fixed header */
+    background: linear-gradient(45deg, #ADD8E6, #9370DB, #FFB6C1, #E6E6FA);
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.1em;
+}
+
+/* About section styling */
+.about {
+    padding: 100px 10%;
+    text-align: center;
+    background: linear-gradient(45deg, #FFB6C1, #E6E6FA);
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.about p {
+    font-size: 1.1em;
+}
+
+/* Education section styling */
+.education {
+    padding: 100px 10%;
+    text-align: center;
+    background: linear-gradient(45deg, #ffffff, #ADD8E6);
+}
+
+.education h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.education p {
+    font-size: 1.1em;
+}
+
+/* Skills section styling */
+.skills {
+    padding: 100px 10%;
+    text-align: center;
+    background: linear-gradient(45deg, #9370DB, #E6E6FA);
+}
+
+.skills h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    width: 30%;
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.skill-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.skill-item p {
+    font-size: 1em;
+}
+
+/* Contact section styling */
+.contact {
+    padding: 100px 10%;
+    text-align: center;
+    background: linear-gradient(45deg, #FFB6C1, #ADD8E6);
+    color: #333;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.contact p {
+    font-size: 1.1em;
+}
+
+.contact a {
+    color: #007BFF;
+    text-decoration: none;
+    border-bottom: 1px solid #007BFF;
+    transition: border-bottom 0.3s;
+}
+
+.contact a:hover {
+    border-bottom: 1px solid transparent;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
