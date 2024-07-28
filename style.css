@@ -62,7 +62,7 @@ header ul li a:hover {
 .floating-profile-pic {
     position: fixed;
     top: 10px;
-    right: 10px;
+    left: 10px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
